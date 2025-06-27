@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 주진원지 포트폴리오 페이지에 오신 걸 환영합니다.
 
-## Getting Started
+- 개개인의 활동이 담긴 프로필·포트폴리오와 팀으로 함께 작업한 포트폴리오를 모은 페이지입니다.
 
-First, run the development server:
+## 개발 환경
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- React + TypeScript + Vite
+- Styled-Components
+
+## 협업 툴
+
+- Git / Github
+- Figma
+
+## 소개글
+
+#### 지각변동의 중심에 오신 걸 환영합니다!
+
+업무역량, 협업 능력 향상과 사이드프로젝트를 진행하여
+세상에 지각변동을 일으키는 동아리입니다.
+
+---
+
+### 팀 소개
+
+- 디자이너 : 오주연
+- 프론트엔드 : 원세종, 진승현
+- 백엔드 : 강지용
+- App : 원세종
+
+### 팀 기술 스택
+
+```javascript
+  const Skills = {
+    Design: "Figma",
+    Frontend : {"Nextjs", "TypeScript", "Framer motion", "Shadcn"},
+    Backend : {"Python", "Java"},
+    AppDev : {"React-Native", "Expo"}
+  }
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 팀 규칙
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 매주 수요일 정기 모임 (저녁7시)
+- 각자 업무에 지장가지 않도록 하기
+- 프로젝트를 완성할때마다 기능소개, 기술스택 등 정리 (프로젝트 회고)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+#### 질문있으신가요? 아래 연락처로 알려주세요.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Github: https://github.com/J-epicentre
+- E-mail: jepicentre@gmail.com
