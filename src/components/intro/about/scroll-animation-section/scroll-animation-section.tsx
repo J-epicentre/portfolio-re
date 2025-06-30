@@ -1,6 +1,6 @@
 "use client";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import Mountain1 from "@/assets/images/mountain-1.png";
 import Mountain2 from "@/assets/images/mountain-2.png";
 import Mountain3 from "@/assets/images/mountain-3.png";
@@ -74,10 +74,13 @@ export const ScrollAnimationSection = () => {
     [3, 1]
   );
 
+  useEffect(() => {
+    console.log("Scroll Y Progress:", scrollYProgress.get());
+  }, [scrollYProgress.get()]);
 
   return (
-    <div ref={containerRef} className="h-[4000px]">
-      <div className="sticky top-0 h-screen flex items-center justify-center ">
+    <div ref={containerRef} className="w-full h-[4000px] relative">
+      <div className="sticky top-0 left-0 h-screen flex items-center justify-center w-full overflow-hidden">
         {/* background sky */}
         <motion.div 
           className="absolute top-0 left-0 w-full h-full"

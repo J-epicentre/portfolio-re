@@ -6,16 +6,18 @@ import { ScrollAnimationSection } from "@/components/intro/about/scroll-animatio
 
 const AboutPage = () => {
   return (
-    <main>
-      <AboutSection />
-      <MemberSection />
-      <div 
-        className="w-full h-[500px]"
-      />
-      <ScrollAnimationSection />
-      <GroundSection />
-      <PortfolioListSection />
-    </main>
+    <div className="flex flex-col items-center justify-start w-full">
+      <main className="block w-full">
+        <AboutSection />
+        <MemberSection />
+        <div 
+          className="w-full h-[500px]"
+        />
+        <ScrollAnimationSection />
+        <GroundSection />
+        <PortfolioListSection />
+      </main>
+    </div>
   );
 };
 
